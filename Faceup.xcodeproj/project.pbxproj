@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB7FDAE9C6164472AC59E1B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F000838224423F8289647D /* libPods.a */; };
+		FDCB9FC917BB0E5D007E162D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB9FC817BB0E5D007E162D /* Foundation.framework */; };
+		FDCB9FCB17BB0E5D007E162D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB9FCA17BB0E5D007E162D /* CoreGraphics.framework */; };
+		FDCB9FCD17BB0E5D007E162D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB9FCC17BB0E5D007E162D /* UIKit.framework */; };
+		FDCB9FD317BB0E5D007E162D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCB9FD117BB0E5D007E162D /* InfoPlist.strings */; };
+		FDCB9FD517BB0E5D007E162D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB9FD417BB0E5D007E162D /* main.m */; };
+		FDCB9FD917BB0E5D007E162D /* FUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB9FD817BB0E5D007E162D /* FUAppDelegate.m */; };
+		FDCB9FDC17BB0E5D007E162D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCB9FDA17BB0E5D007E162D /* Main.storyboard */; };
+		FDCB9FDF17BB0E5D007E162D /* FUFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB9FDE17BB0E5D007E162D /* FUFirstViewController.m */; };
+		FDCB9FE217BB0E5D007E162D /* FUSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB9FE117BB0E5D007E162D /* FUSecondViewController.m */; };
+		FDCB9FE417BB0E5D007E162D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCB9FE317BB0E5D007E162D /* Images.xcassets */; };
+		FDCB9FEB17BB0E5D007E162D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB9FEA17BB0E5D007E162D /* XCTest.framework */; };
+		FDCB9FEC17BB0E5D007E162D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB9FC817BB0E5D007E162D /* Foundation.framework */; };
+		FDCB9FED17BB0E5D007E162D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB9FCC17BB0E5D007E162D /* UIKit.framework */; };
+		FDCB9FF517BB0E5D007E162D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCB9FF317BB0E5D007E162D /* InfoPlist.strings */; };
+		FDCB9FF717BB0E5D007E162D /* FaceupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCB9FF617BB0E5D007E162D /* FaceupTests.m */; };
+		FDCBA00217BB1686007E162D /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDCBA00017BB1686007E162D /* a.jpg */; };
+		FDCBA00317BB1686007E162D /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDCBA00117BB1686007E162D /* b.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDCB9FEE17BB0E5D007E162D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCB9FBD17BB0E5C007E162D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCB9FC417BB0E5C007E162D;
+			remoteInfo = Faceup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CC048D0E4294B5F99B173E6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		89F000838224423F8289647D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCB9FC517BB0E5D007E162D /* Faceup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faceup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCB9FC817BB0E5D007E162D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDCB9FCA17BB0E5D007E162D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDCB9FCC17BB0E5D007E162D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDCB9FD017BB0E5D007E162D /* Faceup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Faceup-Info.plist"; sourceTree = "<group>"; };
+		FDCB9FD217BB0E5D007E162D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCB9FD417BB0E5D007E162D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDCB9FD617BB0E5D007E162D /* Faceup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Faceup-Prefix.pch"; sourceTree = "<group>"; };
+		FDCB9FD717BB0E5D007E162D /* FUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUAppDelegate.h; sourceTree = "<group>"; };
+		FDCB9FD817BB0E5D007E162D /* FUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUAppDelegate.m; sourceTree = "<group>"; };
+		FDCB9FDB17BB0E5D007E162D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDCB9FDD17BB0E5D007E162D /* FUFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUFirstViewController.h; sourceTree = "<group>"; };
+		FDCB9FDE17BB0E5D007E162D /* FUFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUFirstViewController.m; sourceTree = "<group>"; };
+		FDCB9FE017BB0E5D007E162D /* FUSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUSecondViewController.h; sourceTree = "<group>"; };
+		FDCB9FE117BB0E5D007E162D /* FUSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUSecondViewController.m; sourceTree = "<group>"; };
+		FDCB9FE317BB0E5D007E162D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDCB9FE917BB0E5D007E162D /* FaceupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCB9FEA17BB0E5D007E162D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDCB9FF217BB0E5D007E162D /* FaceupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceupTests-Info.plist"; sourceTree = "<group>"; };
+		FDCB9FF417BB0E5D007E162D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDCB9FF617BB0E5D007E162D /* FaceupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceupTests.m; sourceTree = "<group>"; };
+		FDCBA00017BB1686007E162D /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		FDCBA00117BB1686007E162D /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCB9FC217BB0E5C007E162D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB9FCB17BB0E5D007E162D /* CoreGraphics.framework in Frameworks */,
+				FDCB9FCD17BB0E5D007E162D /* UIKit.framework in Frameworks */,
+				FDCB9FC917BB0E5D007E162D /* Foundation.framework in Frameworks */,
+				CB7FDAE9C6164472AC59E1B9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB9FE617BB0E5D007E162D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB9FEB17BB0E5D007E162D /* XCTest.framework in Frameworks */,
+				FDCB9FED17BB0E5D007E162D /* UIKit.framework in Frameworks */,
+				FDCB9FEC17BB0E5D007E162D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCB9FBC17BB0E5C007E162D = {
+			isa = PBXGroup;
+			children = (
+				FDCB9FCE17BB0E5D007E162D /* Faceup */,
+				FDCB9FF017BB0E5D007E162D /* FaceupTests */,
+				FDCB9FC717BB0E5D007E162D /* Frameworks */,
+				FDCB9FC617BB0E5D007E162D /* Products */,
+				7CC048D0E4294B5F99B173E6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCB9FC617BB0E5D007E162D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB9FC517BB0E5D007E162D /* Faceup.app */,
+				FDCB9FE917BB0E5D007E162D /* FaceupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCB9FC717BB0E5D007E162D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB9FC817BB0E5D007E162D /* Foundation.framework */,
+				FDCB9FCA17BB0E5D007E162D /* CoreGraphics.framework */,
+				FDCB9FCC17BB0E5D007E162D /* UIKit.framework */,
+				FDCB9FEA17BB0E5D007E162D /* XCTest.framework */,
+				89F000838224423F8289647D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCB9FCE17BB0E5D007E162D /* Faceup */ = {
+			isa = PBXGroup;
+			children = (
+				FDCBA00017BB1686007E162D /* a.jpg */,
+				FDCBA00117BB1686007E162D /* b.jpg */,
+				FDCB9FD717BB0E5D007E162D /* FUAppDelegate.h */,
+				FDCB9FD817BB0E5D007E162D /* FUAppDelegate.m */,
+				FDCB9FDA17BB0E5D007E162D /* Main.storyboard */,
+				FDCB9FDD17BB0E5D007E162D /* FUFirstViewController.h */,
+				FDCB9FDE17BB0E5D007E162D /* FUFirstViewController.m */,
+				FDCB9FE017BB0E5D007E162D /* FUSecondViewController.h */,
+				FDCB9FE117BB0E5D007E162D /* FUSecondViewController.m */,
+				FDCB9FE317BB0E5D007E162D /* Images.xcassets */,
+				FDCB9FCF17BB0E5D007E162D /* Supporting Files */,
+			);
+			path = Faceup;
+			sourceTree = "<group>";
+		};
+		FDCB9FCF17BB0E5D007E162D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB9FD017BB0E5D007E162D /* Faceup-Info.plist */,
+				FDCB9FD117BB0E5D007E162D /* InfoPlist.strings */,
+				FDCB9FD417BB0E5D007E162D /* main.m */,
+				FDCB9FD617BB0E5D007E162D /* Faceup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDCB9FF017BB0E5D007E162D /* FaceupTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB9FF617BB0E5D007E162D /* FaceupTests.m */,
+				FDCB9FF117BB0E5D007E162D /* Supporting Files */,
+			);
+			path = FaceupTests;
+			sourceTree = "<group>";
+		};
+		FDCB9FF117BB0E5D007E162D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDCB9FF217BB0E5D007E162D /* FaceupTests-Info.plist */,
+				FDCB9FF317BB0E5D007E162D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCB9FC417BB0E5C007E162D /* Faceup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCB9FFA17BB0E5D007E162D /* Build configuration list for PBXNativeTarget "Faceup" */;
+			buildPhases = (
+				4FDC8FE21BD242B9A8B7031C /* Check Pods Manifest.lock */,
+				FDCB9FC117BB0E5C007E162D /* Sources */,
+				FDCB9FC217BB0E5C007E162D /* Frameworks */,
+				FDCB9FC317BB0E5C007E162D /* Resources */,
+				BFBE4A1EC0814E99BF7E80E3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Faceup;
+			productName = Faceup;
+			productReference = FDCB9FC517BB0E5D007E162D /* Faceup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDCB9FE817BB0E5D007E162D /* FaceupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCB9FFD17BB0E5D007E162D /* Build configuration list for PBXNativeTarget "FaceupTests" */;
+			buildPhases = (
+				FDCB9FE517BB0E5D007E162D /* Sources */,
+				FDCB9FE617BB0E5D007E162D /* Frameworks */,
+				FDCB9FE717BB0E5D007E162D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCB9FEF17BB0E5D007E162D /* PBXTargetDependency */,
+			);
+			name = FaceupTests;
+			productName = FaceupTests;
+			productReference = FDCB9FE917BB0E5D007E162D /* FaceupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCB9FBD17BB0E5C007E162D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FU;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = OGD;
+				TargetAttributes = {
+					FDCB9FC417BB0E5C007E162D = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					FDCB9FE817BB0E5D007E162D = {
+						TestTargetID = FDCB9FC417BB0E5C007E162D;
+					};
+				};
+			};
+			buildConfigurationList = FDCB9FC017BB0E5C007E162D /* Build configuration list for PBXProject "Faceup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDCB9FBC17BB0E5C007E162D;
+			productRefGroup = FDCB9FC617BB0E5D007E162D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCB9FC417BB0E5C007E162D /* Faceup */,
+				FDCB9FE817BB0E5D007E162D /* FaceupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCB9FC317BB0E5C007E162D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB9FE417BB0E5D007E162D /* Images.xcassets in Resources */,
+				FDCBA00317BB1686007E162D /* b.jpg in Resources */,
+				FDCBA00217BB1686007E162D /* a.jpg in Resources */,
+				FDCB9FD317BB0E5D007E162D /* InfoPlist.strings in Resources */,
+				FDCB9FDC17BB0E5D007E162D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB9FE717BB0E5D007E162D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB9FF517BB0E5D007E162D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FDC8FE21BD242B9A8B7031C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBE4A1EC0814E99BF7E80E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCB9FC117BB0E5C007E162D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB9FD517BB0E5D007E162D /* main.m in Sources */,
+				FDCB9FE217BB0E5D007E162D /* FUSecondViewController.m in Sources */,
+				FDCB9FD917BB0E5D007E162D /* FUAppDelegate.m in Sources */,
+				FDCB9FDF17BB0E5D007E162D /* FUFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCB9FE517BB0E5D007E162D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCB9FF717BB0E5D007E162D /* FaceupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDCB9FEF17BB0E5D007E162D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCB9FC417BB0E5C007E162D /* Faceup */;
+			targetProxy = FDCB9FEE17BB0E5D007E162D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDCB9FD117BB0E5D007E162D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCB9FD217BB0E5D007E162D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDCB9FDA17BB0E5D007E162D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCB9FDB17BB0E5D007E162D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDCB9FF317BB0E5D007E162D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCB9FF417BB0E5D007E162D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCB9FF817BB0E5D007E162D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDCB9FF917BB0E5D007E162D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCB9FFB17BB0E5D007E162D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC048D0E4294B5F99B173E6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Faceup/Faceup-Prefix.pch";
+				INFOPLIST_FILE = "Faceup/Faceup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDCB9FFC17BB0E5D007E162D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC048D0E4294B5F99B173E6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Faceup/Faceup-Prefix.pch";
+				INFOPLIST_FILE = "Faceup/Faceup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDCB9FFE17BB0E5D007E162D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Faceup.app/Faceup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Faceup/Faceup-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FaceupTests/FaceupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDCB9FFF17BB0E5D007E162D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Faceup.app/Faceup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Faceup/Faceup-Prefix.pch";
+				INFOPLIST_FILE = "FaceupTests/FaceupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCB9FC017BB0E5C007E162D /* Build configuration list for PBXProject "Faceup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB9FF817BB0E5D007E162D /* Debug */,
+				FDCB9FF917BB0E5D007E162D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCB9FFA17BB0E5D007E162D /* Build configuration list for PBXNativeTarget "Faceup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB9FFB17BB0E5D007E162D /* Debug */,
+				FDCB9FFC17BB0E5D007E162D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCB9FFD17BB0E5D007E162D /* Build configuration list for PBXNativeTarget "FaceupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCB9FFE17BB0E5D007E162D /* Debug */,
+				FDCB9FFF17BB0E5D007E162D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCB9FBD17BB0E5C007E162D /* Project object */;
+}
